@@ -52,16 +52,16 @@
 }
 
 .breadcrumb > li a {
-  color: #006400;
+  color: #006400;/*colourGreen*/
 }
 
 .breadcrumb > li + li:before {
   content: '\203A';
-  color: #555;
+  color: #555;/*colourGray*/
 }
 
 .breadcrumb > .active {
-  color: #555
+  color: #555/*colourGray*/
 }
 
 /* Layout */
@@ -103,7 +103,7 @@
 /* NavBar */
 
 .navBar {
-  background: #006400;
+  background: #006400;/*colourGreen*/
   display: flex;
   align-items: center;
   min-height: 38px !important;
@@ -205,14 +205,14 @@
 
 .button {
   color: #006400;
-  background: #fff;
-  border-color: #006400;
+  background: #fff;/*colourwhite*/
+  border-color: #006400;/*colourGreen*/
 }
 
 .button:hover {
-  color: #fff;
-  background: #006400;
-  border-color: #fff;
+  color: #fff;/*colourwhite*/
+  background: #006400;/*colourGreen*/
+  border-color: #fff;/*colourwhite*/
 }
 
 /* SideNav */
@@ -236,7 +236,7 @@
 }
 
 .navItemTitle {
-  color: #006400;
+  color: #006400;/*colourGreen*/
   cursor: pointer;
 }
 
@@ -249,7 +249,7 @@
   border: none !important;
   border-radius: 0px;
   box-shadow: none;
-  color: #006400;
+  color: #006400;/*colourGreen*/
   padding: 0;
 }
 
